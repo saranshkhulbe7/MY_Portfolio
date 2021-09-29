@@ -1,0 +1,51 @@
+@import 'utilities.css';
+:root{
+    --primary: #0b0908;
+    --secondary: #28231f;
+}
+
+body{
+    background-color: var(--primary);
+    color: white;
+    -webkit-font-smoothing: antialiased;
+}
+
+.main{
+    background-color: var(--secondary);
+    border-radius: 2rem;
+    margin: 6rem auto;
+    height: 35rem;
+    width: 50rem;
+}
+
+.main .foot{
+    display: flex;
+    height: 27rem;
+    margin-top: -1rem;
+}
+
+.main .heady{
+    height: 0.5rem;
+    width: 50rem;
+    margin : 3rem 3rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    padding: 2rem;
+}
+.main .foot .left{
+    width: 30rem;
+    font-family: 'Poppins', sans-serif;
+}
+.main .foot .right{
+    width: 20rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: -3.5rem; 
+}
+
+.img{
+    height: 17rem;
+    width: 15rem;
+    border-radius: 7rem;
+}
